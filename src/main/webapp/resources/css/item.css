@@ -1,0 +1,454 @@
+@charset "UTF-8";
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.91_177 {
+	overflow: hidden;
+}
+
+.e91_177 {
+	background-color: rgba(255, 255, 255, 1);
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+}
+
+/* 등록된 제품을 리스트 -> 리스트에 있는 제품을 눌렀을때 제품정보에서 받아오는 사진 관리*/
+.productimage-img {
+	position: absolute; /* 기존 위치 유지 */
+	left: 103px; /* 기존 위치 유지 */
+	top: 207px; /* 기존 위치 유지 */
+	width: 637px; /* 기존 크기 유지 */
+	height: 518px; /* 기존 크기 유지 */
+	object-fit: contain; /* 원본 비율 유지 */
+	border-radius: 20px; /* 부드러운 둥근 모서리 */
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* 입체적인 그림자 효과 */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	/* 부드러운 확대와 그림자 전환 */
+	background: none; /* 배경 제거 */
+}
+
+.productimage-img:hover {
+	transform: scale(1.05); /* 마우스 오버 시 이미지 확대 */
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3); /* 확대 시 더 강한 그림자 */
+}
+
+.91_178 {
+	border: 4px solid rgba(0, 0, 0, 1);
+}
+
+.e91_179 {
+	background-color: rgba(2.9292678041383624, 2.9292678041383624, 2.9292678041383624, 1);
+	width: 1920px;
+	height: 13px;
+	position: absolute;
+	left: 0px;
+	top: 145px;
+}
+
+.e91_181 {
+	color: rgba(0, 0, 0, 1);
+	width: 510px;
+	height: 88px;
+	position: absolute;
+	left: 705px;
+	top: 57px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 48px;
+	letter-spacing: 0;
+	cursor: pointer;
+}
+
+.e91_185 {
+	color: rgba(0, 0, 0, 1);
+	width: 229px;
+	height: 65px;
+	position: absolute;
+	left: 860px;
+	top: 230px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.e91_186 {
+	color: rgba(0, 0, 0, 1);
+	width: 229px;
+	height: 65px;
+	position: absolute;
+	left: 860px;
+	top: 333px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.e91_188 {
+	color: rgba(0, 0, 0, 1);
+	width: 229px;
+	height: 65px;
+	position: absolute;
+	left: 860px;
+	top: 429px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.e91_190 {
+	color: rgba(0, 0, 0, 1);
+	width: 229px;
+	height: 65px;
+	position: absolute;
+	left: 860px;
+	top: 528px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.e91_192 {
+	color: rgba(0, 0, 0, 1);
+	width: 229px;
+	height: 65px;
+	position: absolute;
+	left: 860px;
+	top: 624px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 32px;
+	letter-spacing: 0;
+}
+
+.e93_194 {
+	width: 153.62391662597656px;
+	height: 44.92396545410156px;
+	position: absolute;
+	left: 1543px;
+	top: 66px;
+}
+
+.e93_195 {
+	background-color: transparent;
+	width: 153.62391662597656px;
+	height: 44.92396545410156px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 2px solid #000;
+	display: flex;
+	border-top-left-radius: 16.04427146911621px;
+	border-top-right-radius: 16.04427146911621px;
+	border-bottom-left-radius: 16.04427146911621px;
+	border-bottom-right-radius: 16.04427146911621px;
+}
+
+.93_195 {
+	border: 1.6044272184371948px solid rgba(0, 0, 0, 1);
+}
+
+.gocarttext {
+	color: rgba(0, 0, 0, 1);
+	width: 103.88667297363281px;
+	height: 27.275264739990234px;
+	position: absolute;
+	left: 25px;
+	top: 7px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 25.670835494995117px;
+	letter-spacing: 0;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+
+.gocarttext:hover {
+	transform: scale(1.1);
+}
+
+.e93_198 {
+	width: 153.62391662597656px;
+	height: 44.92396545410156px;
+	position: absolute;
+	left: 1721px;
+	top: 66px;
+}
+
+.e93_199 {
+	background-color: transparent;
+	width: 153.62391662597656px;
+	height: 44.92396545410156px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	border: 2px solid #000;
+	display: flex;
+	border-top-left-radius: 16.04427146911621px;
+	border-top-right-radius: 16.04427146911621px;
+	border-bottom-left-radius: 16.04427146911621px;
+	border-bottom-right-radius: 16.04427146911621px;
+}
+
+.93_199 {
+	border: 1.6044272184371948px solid rgba(0, 0, 0, 1);
+}
+
+.gobuytext {
+	color: rgba(0, 0, 0, 1);
+	width: 103.88667297363281px;
+	height: 27.275264739990234px;
+	position: absolute;
+	left: 25px;
+	top: 7px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 25.670835494995117px;
+	letter-spacing: 0;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+
+.gobuytext:hover {
+	transform: scale(1.1);
+}
+
+.e93_202 {
+	background-color: transparent;
+	width: 663px;
+	height: 33px;
+	position: absolute;
+	left: 1068px;
+	top: 235px;
+	font-size: 25px;
+}
+
+.93_202 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.e93_203 {
+	background-color: transparent;
+	width: 663px;
+	height: 33px;
+	position: absolute;
+	left: 1068px;
+	top: 336px;
+	font-size: 25px;
+}
+
+.93_203 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.e93_205 {
+	background-color: transparent;
+	width: 663px;
+	height: 33px;
+	position: absolute;
+	left: 1068px;
+	top: 432px;
+	font-size: 25px;
+}
+
+.93_205 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.e93_207 {
+	background-color: transparent;
+	width: 663px;
+	height: 33px;
+	position: absolute;
+	left: 1068px;
+	top: 531px;
+	font-size: 25px;
+}
+
+.93_207 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.e93_209 {
+	background-color: transparent;
+	width: 663px;
+	height: 33px;
+	position: absolute;
+	left: 1068px;
+	top: 624px;
+	font-size: 25px;
+}
+
+.93_209 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.e93_211 {
+	background-color: transparent;
+	width: 126px;
+	height: 28px;
+	position: absolute;
+	left: 1595px;
+	top: 835px;
+	display: flex;
+	border: 2px solid #000;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.93_211 {
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+
+.backtext {
+	color: rgba(0, 0, 0, 1);
+	width: 94px;
+	height: 18px;
+	position: absolute;
+	left: 1611px;
+	top: 840px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 14px;
+	letter-spacing: 0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+
+.backtext:hover {
+	transform: scale(1.1);
+}
+
+.e102_177 {
+	color: rgba(0, 0, 0, 1);
+	width: 147px;
+	height: 51px;
+	position: absolute;
+	left: 1514px;
+	top: 700px;
+	font-family: Inter;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 0;
+}
+
+.e102_178 {
+	background-color: transparent;
+	width: 62px;
+	height: 25px;
+	position: absolute;
+	left: 1626px;
+	top: 700px;
+	display: flex;
+}
+
+.102_178 {
+	border: 1px solid rgba(0, 0, 0, 1);
+}
+
+/* 제품 설명 칸 css 수정 및 업데이트 부분*/
+
+/* 제품 카드를 감싸는 기본 스타일 */
+.product-card {
+	background-color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+	padding: 40px; /* 전체 여백 확대 */
+	width: 600px; /* 카드 폭 확대 */
+	margin: 30px auto;
+	position: absolute;
+	top: 180px; /* 원하는 위치 조정 */
+	left: 60%; /* 화면 중앙으로 이동 */
+	transform: translateX(-50%); /* 중앙 정렬 */
+}
+
+/* 각 제품 정보 항목의 스타일 */
+.product-info {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0; /* 상하 간격 확대 */
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.product-info:last-child {
+	border-bottom: none;
+}
+
+
+.label, .value {
+	font-size: 1.5rem; 
+}
+
+.label {
+	font-weight: bold;
+	color: #333;
+}
+
+.value {
+	cursor: pointer;
+	color: black;
+}
+
+.value.clicked {
+	color: red;
+}
+
+/* 사이즈 카드 컨테이너 */
+.size-card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    position: absolute; /* 절대 위치 지정 */
+    left: 88%; /* 오른쪽으로 이동 (조정 가능) */
+    top: 30%; /* 아래로 이동 (조정 가능) */
+    transform: translate(-50%, -50%); /* 정확한 중앙 정렬을 위한 보정 */
+}
+
+/* 각 사이즈 카드 */
+.size-card {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* 카드 제목 (상의, 하의) */
+.size-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* 사이즈 목록 */
+.size-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.size-card li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* 품절 표시 */
+.size-card li.sold-out {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,511 @@
+@charset "UTF-8";
+
+a {
+	text-decoration:none;
+	color: #000;
+}
+
+.93_214 { 
+	overflow:hidden;
+}
+.e93_214 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1920px;
+	height:1080px;
+	position:absolute;
+}
+.e93_215 { 
+	background-color:rgba(7.651439476758242, 7.651439476758242, 7.651439476758242, 1);
+	width:1920px;
+	height:10px;
+	position:absolute;
+	left:-20px;
+	top:107px;
+	
+}
+.e93_216 { 
+	color:rgba(0, 0, 0, 1);
+	width:604px;
+	height:74px;
+	position:absolute;
+	left:-149px;
+	top:33px;
+	font-family:Inter;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+	cursor: pointer;
+}
+.e93_217 { 
+	color:rgba(0, 0, 0, 1);
+	width:447px;
+	height:71px;
+	position:absolute;
+	left:736px;
+	top:39px;
+	font-family:Instrument Sans;
+	text-align:center;
+	font-size:32px;
+	letter-spacing:0;
+}
+/* 제품 리스트를 담는 그리드 컨테이너 */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 카드들이 자동으로 나열되도록 */
+    gap: 20px; /* 카드 간격 */
+    padding: 20px;
+}
+
+/* 제품 카드 스타일 */
+.product-card {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+.itemimage1 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:71px;
+	top:201px;
+	overflow: hidden;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	
+}
+.imagefile {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover;
+	position: relative;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	animation: fadeIn 1s ease-in-out;
+}
+.94_218 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage5 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:71px;
+	top:608px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_225 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage2 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:547px;
+	top:201px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_219 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage6 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:547px;
+	top:608px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_227 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage3 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:1023px;
+	top:201px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_221 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage7 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:1023px;
+	top:608px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_229 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage4 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:1499px;
+	top:201px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_223 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.itemimage8 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:377px;
+	height:301px;
+	position:absolute;
+	left:1499px;
+	top:608px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.94_231 { 
+	border:2px solid rgba(0, 0, 0, 1);
+}
+.e94_233 { 
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:1688px;
+	top:39px;
+}
+.e94_234 { 
+	background-color: transparent;
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	display: flex;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+}
+.94_234 { 
+	border:1.6044272184371948px solid rgba(0, 0, 0, 1);
+}
+.gobacktext { 
+	color:rgba(0, 0, 0, 1);
+	width:104.28778076171875px;
+	height:24.467517852783203px;
+	position:absolute;
+	left:25px;
+	top:7px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.gobacktext:hover {
+	transform: scale(1.1);
+}
+.namelist { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position: absolute;
+	left:71px;
+	top:519px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namelist2 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:547px;
+	top:519px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox1 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:400px;
+	height:36px;
+	position: absolute;
+	left:90px;
+	top:519px;
+	display: flex;
+	font-size: 23px;
+	
+	
+}
+.94_238 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namebox2 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:682px;
+	top:519px;
+}
+.94_241 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist5 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:68px;
+	top:926px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox5 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:203px;
+	top:926px;
+}
+.94_250 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist8 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:1499px;
+	top:926px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox8 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:1634px;
+	top:926px;
+}
+.94_259 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist7 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:1023px;
+	top:926px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox7 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:1158px;
+	top:926px;
+}
+.94_256 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist6 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:547px;
+	top:926px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox6 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:682px;
+	top:926px;
+}
+.94_253 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist4 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:1499px;
+	top:519px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox4 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:1634px;
+	top:519px;
+}
+.94_247 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+.namelist3 { 
+	color:rgba(0, 0, 0, 1);
+	width:141px;
+	height:43px;
+	position:absolute;
+	left:1023px;
+	top:519px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+}
+.namebox3 { 
+	background-color:rgba(255, 255, 255, 0);
+	width:228px;
+	height:36px;
+	position:absolute;
+	left:1158px;
+	top:519px;
+}
+.94_244 { 
+	border:1px solid rgba(0, 0, 0, 1);
+}
+
+.image-box{
+	display:flex;
+	justify-content:space-between
+}
+
+/* 이펙트 추가 버전 */
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4개의 카드가 한 줄에 나타나도록 설정 */
+    gap: 100px; /* 카드 간격 */
+    padding: 20px;
+}
+
+.product-card {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 트랜지션 효과 추가 */
+	transform: translateY(150px); /* 카드의 위치를 아래로 20px 이동 */
+	cursor: pointer; /* 마우스를 올렸을 때 커서를 포인터로 변경 */
+}
+
+.product-card:hover {
+    transform: scale(1.02) translateY(80px); /* 카드가 약간 확대되면서 위로 5px 이동 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 그림자를 더 강조 */
+}
+
+.itemimage {
+    position: relative; /* 오버레이를 위해 상대 위치 설정 */
+    background-color: rgba(217, 217, 217, 1);
+    width: 100%; /* 가로폭을 100%로 설정 */
+    height: 400px; /* 고정 높이 설정 */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden; /* 이미지가 카드 밖으로 나가지 않도록 */
+}
+
+.imagefile {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover; /* 이미지를 카드에 맞게 자르기 */
+}
+
+.overlay {
+    position: absolute; /* 오버레이를 절대 위치로 설정 */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex; /* 중앙 정렬을 위해 플렉스 박스 사용 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    background-color: rgba(0, 0, 0, 0.7); /* 반투명 배경 */
+    color: white; /* 텍스트 색상 */
+    font-size: 18px; /* 폰트 크기 */
+    opacity: 0; /* 기본적으로 숨김 */
+    transition: opacity 0.3s; /* 부드러운 전환 효과 */
+}
+
+.itemimage:hover .overlay {
+    opacity: 1; /* 마우스를 올렸을 때 오버레이 보이기 */
+}
+.overlay .content {
+    display: flex;
+    flex-direction: column; /* 수직 정렬 */
+    gap: 10px; /* 요소 간 간격 */
+}
+
+.overlay .price {
+    font-size: 16px; /* 가격에 별도 폰트 크기 설정 가능 */
+    color: lightgray; /* 가격 색상 조정 */
+}

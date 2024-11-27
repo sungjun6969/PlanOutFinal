@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f7f9fc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.mainlogo { 
+	color:rgba(0, 0, 0, 1);
+	width:369px;
+	height:50px;
+	position:absolute;
+	left:771px;
+	top:25px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+	font-weight: bold;
+}
+.logoline { 
+	background-color:rgba(7.651439476758242, 7.651439476758242, 7.651439476758242, 1);
+	width:1920px;
+	height:10px;
+	position:absolute;
+	left:-20px;
+	top:107px;
+}
+
+.container {
+	text-align: center;
+	background-color: white;
+	padding: 60px 50px;
+	border-radius: 15px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	max-width: 600px;
+	width: 100%;
+}
+
+h2 {
+	color: black;
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+p {
+	font-size: 1.4rem;
+	color: #555;
+	margin-bottom: 30px;
+}
+
+.button {
+	display: inline-block;
+	padding: 15px 40px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: white;
+	background-color: #2ecc71;
+	text-decoration: none;
+	border-radius: 8px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+	background-color: #27ae60;
+	transform: scale(1.05);
+}
+
+.button:active {
+	background-color: #1e8449;
+	transform: scale(1);
+}

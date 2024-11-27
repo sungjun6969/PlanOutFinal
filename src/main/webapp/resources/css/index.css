@@ -1,0 +1,790 @@
+@charset "UTF-8";
+
+.head-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+a {
+	text-decoration:none;
+	color: #000;
+}
+.46_245 { 
+	overflow:hidden;
+}
+.e46_245 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1920px;
+	height:1080px;
+	position:absolute;
+}
+.e46_247 { 
+	color:rgba(0, 0, 0, 1);
+	width:369px;
+	height:50px;
+	position:absolute;
+	left:771px;
+	top:25px;
+	font-family:Inter;
+	text-align:center;
+	font-size:40px;
+	letter-spacing:0;
+	font-weight: bold;
+}
+.e65_178 { 
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:1510px;
+	top:32px;
+}
+.logincover { 
+	background-color: transparent;
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.shownameinfo {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+    cursor:pointer;
+}
+.46_248 { 
+	border:1.6044272184371948px solid rgba(0, 0, 0, 1);
+}
+.textline1 { 
+	color:rgba(0, 0, 0, 1);
+	width:103.88667297363281px;
+	height:27.275264739990234px;
+	position:absolute;
+	left:25px;
+	top:7px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.textline1:hover {
+	transform: scale(1.1);
+}
+.e65_177 { 
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:1700px;
+	top:32px;
+}
+.signincover { 
+	background-color:rgba(255, 255, 255, 1);
+	width:153.62391662597656px;
+	height:44.92396545410156px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.46_249 { 
+	border:1.6044272184371948px solid rgba(0, 0, 0, 1);
+}
+.textline2 { 
+	color:rgba(0, 0, 0, 1);
+	width:104.28778076171875px;
+	height:24.467517852783203px;
+	position:absolute;
+	left:24.53125px;
+	top:9.3125px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.textline2:hover {
+	transform: scale(1.1);
+}
+
+.mainimage1 {
+    position: absolute;
+    left: 73px;
+    top: 516px;
+    background-image: url('/resources/img/women_waterbomb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 338px;
+    height: 300px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.mainimage1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.mainimage2 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:546px;
+	top:516px;
+	background-image: url('/resources/img/man_hood.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.mainimage2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.mainimage3 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1023px;
+	top:516px;
+	background-image: url('/resources/img/women_amecheckshirt.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.mainimage3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.mainimage4 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1499px;
+	top:516px;
+	background-image: url('/resources/img/offshoulder_women.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.mainimage4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.designtext { 
+	color:rgba(0, 0, 0, 1);
+	width:525.449951171875px;
+	height:68.18816375732422px;
+	position:absolute;
+	left:693px;
+	top:424px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+	cursor: pointer;
+}
+.designtext:hover {
+	transform: scale(1.1);
+}
+
+.recommendtext { 
+	color:rgba(0, 0, 0, 1);
+	width:525.449951171875px;
+	height:68.18816375732422px;
+	position:absolute;
+	left:693px;
+	top:1000px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.recommendtext:hover {
+	transform: scale(1.1);
+}
+
+.recommendimg1 {
+    position: absolute;
+    left: 73px;
+    top: 1100px;
+    background-image: url('/resources/img/women_ivoryblows.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 338px;
+    height: 300px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.recommendimg1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.recommendimg2 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:546px;
+	top:1100px;
+	background-image: url('/resources/img/man_widepants.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.recommendimg2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.recommendimg3 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1023px;
+	top:1100px;
+	background-image: url('/resources/img/women1.webp'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.recommendimg3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.recommendimg4 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1499px;
+	top:1100px;
+	background-image: url('/resources/img/women2.webp'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.recommendimg4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 신상 제품 css*/
+
+.newprodtext { 
+	color:rgba(0, 0, 0, 1);
+	width:525.449951171875px;
+	height:68.18816375732422px;
+	position:absolute;
+	left:693px;
+	top:1550px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.newprodtext:hover {
+	transform: scale(1.1);
+}
+
+.newproductimg1 {
+    position: absolute;
+    left: 73px;
+    top: 1650px;
+    background-image: url('/resources/img/women_t.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 338px;
+    height: 300px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.newproductimg1:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.newproductimg2 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:546px;
+	top:1650px;
+	background-image: url('/resources/img/여성 가을 블록코어룩 박시핏 맨투맨.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.newproductimg2:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.newproductimg3 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1023px;
+	top:1650px;
+	background-image: url('/resources/img/man_springjacket.jpg'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.newproductimg3:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+.newproductimg4 { 
+	width:338px;
+	height:300px;
+	position:absolute;
+	left:1499px;
+	top:1650px;
+	background-image: url('/resources/img/여성 어베인 긴팔 겨울옷.avif'); /* 이미지 경로 */
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.newproductimg4:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 푸터 리스트 */
+
+.footertext { 
+	color:rgba(0, 0, 0, 1);
+	width:525.449951171875px;
+	height:68.18816375732422px;
+	position:absolute;
+	left:693px;
+	top:2900px;
+	font-family:Inter;
+	text-align:center;
+	font-size:25.670835494995117px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+	font-size: 40px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.footertext:hover {
+	transform: scale(1.1);
+}
+.footer {
+    background-color: #000; /* 검정색 배경 */
+    color: #fff; /* 흰색 텍스트 */
+    padding: 20px; /* 안쪽 여백 */
+    text-align: center; /* 텍스트 중앙 정렬 */
+    margin-top: 3000px; /* 위쪽 여백을 3000px로 설정 */
+    height: 230px; /* 푸터의 높이를 300px로 설정 */
+    width: 100%; /* 푸터가 전체 너비를 차지하도록 설정 */
+    position: absolute;
+    left: -20px;
+}
+.siteinformation {
+    background-color: #000; 
+    background-image: url('/resources/img/siteinfoimage.avif'); /* 배경 이미지 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2100px;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    left: -20px;
+
+}
+
+.hover-text1 {
+    display: block; /* 움직임이 자연스럽게 보이도록 설정 */
+    transition: transform 1s ease; /* 부드러운 이동 효과 */
+    font-size: 100px;
+    margin-left: 10px; /* 왼쪽으로 이동 */
+    text-align: left; /* 텍스트 정렬을 왼쪽으로 */
+    font-weight: bold; /* 텍스트 굵기 */
+    position: relative; /* 상대 위치 설정 */
+    top:-50px; /* 텍스트를 위로 이동 */
+ 
+}
+.hover-text1:hover {
+    transform: translateX(360px); /* 텍스트가 오른쪽으로 이동 */
+}
+.hover-text2 {
+    display: block; /* 움직임이 자연스럽게 보이도록 설정 */
+    transition: transform 1s ease; /* 부드러운 이동 효과 */
+    font-size: 100px;
+    margin-left: 10px; /* 왼쪽으로 이동 */
+    text-align: left; /* 텍스트 정렬을 왼쪽으로 */
+    font-weight: bold; /* 텍스트 굵기 */
+    position: relative; /* 상대 위치 설정 */
+    top:-100px; /* 텍스트를 위로 이동 */
+ 
+}
+.hover-text2:hover {
+    transform: translateX(360px); /* 텍스트가 오른쪽으로 이동 */
+}
+.hover-text3 {
+    display: block; /* 움직임이 자연스럽게 보이도록 설정 */
+    transition: transform 1s ease; /* 부드러운 이동 효과 */
+    font-size: 100px;
+    margin-left: 10px; /* 왼쪽으로 이동 */
+    text-align: left; /* 텍스트 정렬을 왼쪽으로 */
+    font-weight: bold; /* 텍스트 굵기 */
+    position: relative; /* 상대 위치 설정 */
+    top:-160px; /* 텍스트를 위로 이동 */
+
+}
+.hover-text3:hover {
+    transform: translateX(360px); /* 텍스트가 오른쪽으로 이동 */
+}
+
+.e46_290 { 
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:645px;
+	top:842px;
+}
+.clickherebutton1 { 
+	background-color: transparent;
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.46_291 { 
+	border:2.0055339336395264px solid rgba(0, 0, 0, 1);
+}
+.clickheretext1 { 
+	color:rgba(0, 0, 0, 1);
+	width:110.70549011230469px;
+	height:24.868623733520508px;
+	position:absolute;
+	left:14.439852714538574px;
+	top:8.824357032775879px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14.439845085144043px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.clickheretext1:hover {
+	transform: scale(1.1);
+}
+.e46_294 { 
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:1122px;
+	top:842px;
+}
+.clickherebutton2 { 
+	background-color: transparent;
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.46_295 { 
+	border:2.0055339336395264px solid rgba(0, 0, 0, 1);
+}
+.clickheretext2 { 
+	color:rgba(0, 0, 0, 1);
+	width:110.70549011230469px;
+	height:24.868623733520508px;
+	position:absolute;
+	left:14.439852714538574px;
+	top:8.824357032775879px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14.439845085144043px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.clickheretext2:hover {
+	transform: scale(1.1);
+}
+.e65_185 { 
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:1598px;
+	top:839px;
+}
+.clickherebutton3 { 
+	background-color: transparent;
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.65_186 { 
+	border:2.0055339336395264px solid rgba(0, 0, 0, 1);
+}
+.clickheretext3 { 
+	color:rgba(0, 0, 0, 1);
+	width:110.70549011230469px;
+	height:24.868623733520508px;
+	position:absolute;
+	left:14.439852714538574px;
+	top:8.824357032775879px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14.439845085144043px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.clickheretext3:hover {
+	transform: scale(1.1);
+}
+.e46_286 { 
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:172px;
+	top:842px;
+}
+.clickherebutton4 { 
+	background-color: transparent;
+	width:139.58517456054688px;
+	height:37.30293655395508px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border: 2px solid #000;
+	border-top-left-radius:16.04427146911621px;
+	border-top-right-radius:16.04427146911621px;
+	border-bottom-left-radius:16.04427146911621px;
+	border-bottom-right-radius:16.04427146911621px;
+	display: flex;
+}
+.46_287 { 
+	border:2.0055339336395264px solid rgba(0, 0, 0, 1);
+}
+.clickheretext4 { 
+	color:rgba(0, 0, 0, 1);
+	width:110.70549011230469px;
+	height:24.868623733520508px;
+	position:absolute;
+	left:14.439851760864258px;
+	top:8.824357032775879px;
+	font-family:Inter;
+	text-align:center;
+	font-size:14.439845085144043px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.clickheretext4:hover {
+	transform: scale(1.1);
+}
+.headerimage { 
+	width:1920px;
+	height:238px;
+	position:absolute;
+	left:0px;
+	top:130px;
+	background-image:url(/resources/img/headerimage.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.circle1 { 
+	border-radius:500px;
+	background-color:rgba(255, 255, 255, 1);
+	width:16px;
+	height:16px;
+	position:absolute;
+	left:898px;
+	top:331px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.circle1:hover {
+	transform: scale(1.1);
+}
+.circle2 { 
+	border-radius:500px;
+	background-color:rgba(255, 255, 255, 1);
+	width:16px;
+	height:16px;
+	position:absolute;
+	left:924px;
+	top:331px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.circle2:hover {
+	transform: scale(1.1);
+}
+.circle3 { 
+	border-radius:500px;
+	background-color:rgba(255, 255, 255, 1);
+	width:16px;
+	height:16px;
+	position:absolute;
+	left:952px;
+	top:331px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.circle3:hover {
+	transform: scale(1.1);
+}
+.pause1 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:3px;
+	height:18px;
+	position:absolute;
+	left:1004px;
+	top:331px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.pause1:hover {
+	transform: scale(1.1);
+}
+.pause2 { 
+	background-color:rgba(255, 255, 255, 1);
+	width:3px;
+	height:18px;
+	position:absolute;
+	left:1009px;
+	top:331px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.pause2:hover {
+	transform: scale(1.1);
+}
+.headertext1 { 
+	color:rgba(255, 255, 255, 1);
+	width:741px;
+	height:120px;
+	position:absolute;
+	left:590px;
+	top:167px;
+	font-family:Inter;
+	text-align:center;
+	font-size:36px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.headertext1:hover {
+	transform: scale(1.1);
+}
+.headertext2 { 
+	color:rgba(255, 255, 255, 1);
+	width:311px;
+	height:48px;
+	position:absolute;
+	left:805px;
+	top:239px;
+	font-family:Inter;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:0;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.headertext2:hover {
+	transform: scale(1.1);
+}
+.rectangle { 
+	background-color:rgba(255, 255, 255, 1);
+	width:14px;
+	height:14px;
+	position:absolute;
+	left:979px;
+	top:332px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+.rectangle:hover {
+	transform: scale(1.1);
+}
