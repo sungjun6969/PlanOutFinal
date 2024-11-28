@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>제품등록관리자</title>
 <jsp:include page="../head.jsp"></jsp:include>
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Instrument+Sans&display=swap" rel="stylesheet">

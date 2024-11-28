@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>제품 상세정보</title>
 <jsp:include page="../head.jsp"></jsp:include>
 <script type="text/javascript" src="/resources/js/product/item.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap"

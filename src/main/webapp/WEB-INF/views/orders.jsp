@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>주문페이지</title>
 <link rel="stylesheet" href="/resources/css/orders.css">
 <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
 </head>

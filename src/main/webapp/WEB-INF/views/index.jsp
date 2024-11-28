@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>P L A N O U T</title>
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap"
 	rel="stylesheet">
 <link rel="stylesheet" href="resources/css/index.css">

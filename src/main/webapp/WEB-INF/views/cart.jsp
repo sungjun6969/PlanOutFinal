@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title></title>
+<title>장바구니</title>
 <jsp:include page="head.jsp"></jsp:include>
 <script type="text/javascript" src="/resources/js/cart.js"></script>
 <link rel="stylesheet" href="/resources/css/cart.css">

@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>PLANOUT(제품리스트 고객페이지)</title>
+<title>제품리스트</title>
 <link href="https://fonts.googleapis.com/css?family=Inter&display=swap"
 	rel="stylesheet">
 <link
