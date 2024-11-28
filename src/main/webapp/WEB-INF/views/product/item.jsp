@@ -119,10 +119,12 @@
 		<!-- 버튼 수정란 -->
 
 		<div class="e93_211"></div>
-		<span class="backtext"><a href="/product/cardlist">뒤로가기</a></span> <span
-			class="e102_177">수량 :</span>
-		<div class="e102_178">
-			<input type="number" id="amount" value="1">
+		<span class="backtext"><a href="/product/cardlist">뒤로가기</a></span>
+		<div class="quantity-container">
+			<span class="label">수량 :</span>
+			<div class="input-wrapper">
+				<input type="number" id="amount" value="1" min="1">
+			</div>
 		</div>
 	</div>
 </body>

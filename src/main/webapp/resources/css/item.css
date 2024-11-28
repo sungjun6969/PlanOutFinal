@@ -329,28 +329,51 @@ a {
 .backtext:hover {
 	transform: scale(1.1);
 }
-
-.e102_177 {
-	color: rgba(0, 0, 0, 1);
-	width: 147px;
-	height: 51px;
-	position: absolute;
-	left: 1514px;
-	top: 700px;
-	font-family: Inter;
-	text-align: center;
+.quantity-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-family: Inter, sans-serif;
 	font-size: 20px;
-	letter-spacing: 0;
+	color: rgba(0, 0, 0, 1);
+	position: absolute;
+	left: 1500px;
+	top: 500px;
 }
 
-.e102_178 {
-	background-color: transparent;
-	width: 62px;
-	height: 25px;
-	position: absolute;
-	left: 1626px;
-	top: 700px;
+/* 라벨 스타일 */
+.quantity-container .label {
+	text-align: center;
+	font-weight: bold;
+}
+
+/* 입력 필드 감싸는 래퍼 */
+.quantity-container .input-wrapper {
 	display: flex;
+	align-items: center;
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 4px;
+	width: fit-content;
+}
+
+/* 숫자 입력 필드 */
+.quantity-container input[type="number"] {
+	width: 60px;
+	height: 35px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 4px;
+	outline: none;
+	background-color: transparent;
+}
+
+/* 포커스 상태 */
+.quantity-container input[type="number"]:focus {
+	border: 1px solid #007BFF;
+	background-color: #fff;
 }
 
 .102_178 {
